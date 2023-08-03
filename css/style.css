@@ -1,0 +1,78 @@
+#CaseStudies {
+    margin: 0px 5%;
+    display: grid;
+    grid-template-rows: 1200px;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-areas:
+    "DotC CodeSavvy DailyFetch EDgov"
+    ;
+  }
+  
+  #DotC {
+    grid-area: DotC;
+    background-image: url("../images/Case Study 1.png");
+  
+  }
+  #CodeSavvy {
+    grid-area: CodeSavvy;
+    background-image: url("../images/Case Study 2.png");
+  }
+  
+  #DailyFetch {
+    grid-area: DailyFetch;
+    background-image: url("../images/Case Study 3.png");
+  }
+  
+  #EDgov {
+    grid-area: EDgov;
+    background-image: url("../images/Case Study 4.png");
+  }
+
+  
+  .categoryGridArea {
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 5px;
+    cursor: pointer;
+    display: grid;
+    align-content: center;
+  }
+  
+  .heading {
+    background-color: rgba(0,0,0,0.7);
+    padding: 15px;
+    height: 50px;
+    color: white;
+    font-size: 36px;
+
+  }
+
+/* Navigation CSS */
+
+  #navBar {
+    display: flex;
+    flex-direction: row;
+    margin: 0px 5%;
+  }
+  #navigation {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+  .left .cetner .right {
+    cursor: pointer;
+    text-decoration: none;
+  }
+  button {
+    font-size: 36px;
+  }
+  footer {
+    background-color:  #373738;
+    color: white;
+  }
+  ul {
+    display: inline-block;
+    vertical-align: top;
+  }
